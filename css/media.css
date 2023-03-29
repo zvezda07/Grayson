@@ -1,0 +1,45 @@
+@media (max-width: 850px) {
+    .boxes {
+        justify-content: space-evenly;
+    }
+
+    .card {
+        flex-wrap: wrap;
+    }
+
+    .cards {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 686px) {
+    .banner__logo {
+        display: flex;
+        text-align: center;
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 636px) {
+    .card1 {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 576px) {
+    .main-footer {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 460px) {
+    .nav  .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .product__image1::before,
+    .product__image1::after {
+        display: none;
+    }
+}
